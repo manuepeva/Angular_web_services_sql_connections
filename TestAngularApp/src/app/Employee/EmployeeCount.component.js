@@ -16,7 +16,6 @@ var EmployeeCountComponent = (function () {
     }
     EmployeeCountComponent.prototype.onRadioButtonSelectionChanged = function () {
         this.countRadioButtonSelectionChanged.emit(this.selectedRadioButton);
-        console.log(this.selectedRadioButton);
     };
     return EmployeeCountComponent;
 }());

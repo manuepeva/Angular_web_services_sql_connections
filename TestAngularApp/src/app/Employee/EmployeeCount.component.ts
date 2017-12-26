@@ -23,6 +23,7 @@ export class EmployeeCountComponent {
 
     onRadioButtonSelectionChanged() {
         this.countRadioButtonSelectionChanged.emit(this.selectedRadioButton);
-        console.log(this.selectedRadioButton);
+       
     }
-  
+    
+}

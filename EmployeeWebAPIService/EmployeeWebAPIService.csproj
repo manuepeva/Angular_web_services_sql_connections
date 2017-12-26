@@ -184,6 +184,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\EmployeesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="EmployeeDataModel.Context.cs">
@@ -191,10 +192,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>EmployeeDataModel.Context.tt</DependentUpon>
     </Compile>
+    <Compile Include="EmployeeDataModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmployeeDataModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="EmployeeDataModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>EmployeeDataModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="EMPLOYEESTABLE.cs">
+      <DependentUpon>EmployeeDataModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -208,6 +217,12 @@
     <Content Include="EmployeeDataModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>EmployeeDataModel.Context.cs</LastGenOutput>
+      <DependentUpon>EmployeeDataModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="EmployeeDataModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>EmployeeDataModel.edmx</DependentUpon>
+      <LastGenOutput>EmployeeDataModel.cs</LastGenOutput>
     </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -240,9 +255,9 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>EmployeeDataModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="EmployeeDataModel.edmx.diagram">
+    <Content Include="EmployeeDataModel.edmx.diagram">
       <DependentUpon>EmployeeDataModel.edmx</DependentUpon>
-    </None>
+    </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

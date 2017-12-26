@@ -1,4 +1,4 @@
-﻿import { Component } from '@angular/core';
+﻿import { Component, OnInit } from '@angular/core';
 import { IEmployee } from './employee';
 import { EmployeeService } from './Employee.service';
 
@@ -6,22 +6,22 @@ import { EmployeeService } from './Employee.service';
     selector: 'list-employee',
     templateUrl: 'app/employee/employeeList.component.html',
     styleUrls: ['app/employee/employeeListcomponent.css'],
-    //providers: [EmployeeService]
+    providers: [EmployeeService]
 })
 
 
 
-export class EmployeeListComponent{
+export class EmployeeListComponent implements OnInit {
     employees: IEmployee[];
     selectedEmployeeCountRadioButton: string = 'all';
 
-    //constructor(private _employeeService: EmployeeService) {
+    constructor(private _employeeService: EmployeeService) {
      
-    //}
+    }
 
-    //ngOnInit() {
-    //    this.employees = this._employeeService.getEmployee();
-    //}
+    ngOnInit() {
+        this.employees = this._employeeService.getEmployee();
+    }
 
   
     getTotalEmployeesCount(): number {
