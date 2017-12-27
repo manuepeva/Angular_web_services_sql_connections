@@ -42,7 +42,9 @@ D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\EmployeeWebAPIService\
 D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\EmployeeWebAPIService\bin\Microsoft.Web.Infrastructure.dll
 D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\EmployeeWebAPIService\bin\Newtonsoft.Json.dll
 D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\EmployeeWebAPIService\bin\System.Net.Http.Formatting.dll
+D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\EmployeeWebAPIService\bin\System.Web.Cors.dll
 D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\EmployeeWebAPIService\bin\System.Web.Helpers.dll
+D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\EmployeeWebAPIService\bin\System.Web.Http.Cors.dll
 D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\EmployeeWebAPIService\bin\System.Web.Http.dll
 D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\EmployeeWebAPIService\bin\System.Web.Http.WebHost.dll
 D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\EmployeeWebAPIService\bin\System.Web.Mvc.dll
@@ -55,6 +57,7 @@ D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\EmployeeWebAPIService\
 D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\EmployeeWebAPIService\bin\EntityFramework.xml
 D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\EmployeeWebAPIService\bin\EntityFramework.SqlServer.xml
 D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\EmployeeWebAPIService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\EmployeeWebAPIService\bin\System.Web.Http.Cors.xml
 D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\EmployeeWebAPIService\bin\Newtonsoft.Json.xml
 D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\EmployeeWebAPIService\bin\System.Net.Http.Formatting.xml
 D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\EmployeeWebAPIService\bin\System.Web.Helpers.xml

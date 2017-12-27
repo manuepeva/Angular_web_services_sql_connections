@@ -13,14 +13,19 @@ import { EmployeeService } from './Employee.service';
 
 export class EmployeeListComponent implements OnInit {
     employees: IEmployee[];
-    selectedEmployeeCountRadioButton: string = 'all';
+    selectedEmployeeCountRadioButton: string = 'All';
+    statusMessage: string;
 
     constructor(private _employeeService: EmployeeService) {
      
     }
 
     ngOnInit() {
-        this.employees = this._employeeService.getEmployee();
+        this._employeeService.getEmployee().subscribe((employeeData) =>
+            this.employees = employeeData,
+            (error) => {
+                this.statusMessage = "Not Working on this path";
+            });
     }
 
   
@@ -29,11 +34,11 @@ export class EmployeeListComponent implements OnInit {
     }
 
     getTotalMaleEmployeesCount(): number {
-        return this.employees.filter(e => e.gender ==="male").length;
+        return this.employees.filter(e => e.GENDER === "male").length;
     }
 
     getTotalFemaleEmployeesCount(): number {
-        return this.employees.filter(e => e.gender ==="female").length;
+        return this.employees.filter(e => e.GENDER === "female").length;
     }
 
 }

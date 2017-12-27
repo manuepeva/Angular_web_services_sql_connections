@@ -13,19 +13,24 @@ var Employee_service_1 = require("./Employee.service");
 var EmployeeListComponent = (function () {
     function EmployeeListComponent(_employeeService) {
         this._employeeService = _employeeService;
-        this.selectedEmployeeCountRadioButton = 'all';
+        this.selectedEmployeeCountRadioButton = 'All';
     }
     EmployeeListComponent.prototype.ngOnInit = function () {
-        this.employees = this._employeeService.getEmployee();
+        var _this = this;
+        this._employeeService.getEmployee().subscribe(function (employeeData) {
+            return _this.employees = employeeData;
+        }, function (error) {
+            _this.statusMessage = "Not Working on this path";
+        });
     };
     EmployeeListComponent.prototype.getTotalEmployeesCount = function () {
         return this.employees.length;
     };
     EmployeeListComponent.prototype.getTotalMaleEmployeesCount = function () {
-        return this.employees.filter(function (e) { return e.gender === "male"; }).length;
+        return this.employees.filter(function (e) { return e.GENDER === "male"; }).length;
     };
     EmployeeListComponent.prototype.getTotalFemaleEmployeesCount = function () {
-        return this.employees.filter(function (e) { return e.gender === "female"; }).length;
+        return this.employees.filter(function (e) { return e.GENDER === "female"; }).length;
     };
     return EmployeeListComponent;
 }());

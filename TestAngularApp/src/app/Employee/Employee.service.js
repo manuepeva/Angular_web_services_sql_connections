@@ -5,25 +5,25 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 var core_1 = require("@angular/core");
+var http_1 = require("@angular/http");
+require("rxjs/Rx");
 var EmployeeService = (function () {
-    function EmployeeService() {
+    function EmployeeService(_http) {
+        this._http = _http;
     }
     EmployeeService.prototype.getEmployee = function () {
-        return [
-            { code: 'empl101', name: 'Tom', gender: 'male', annualSal: 6599 },
-            { code: 'empl102', name: 'Tom', gender: 'female', annualSal: 6599 },
-            { code: 'empl103', name: 'Tom', gender: 'female', annualSal: 6599 },
-            { code: 'empl104', name: 'Tom', gender: 'male', annualSal: 6599 },
-            { code: 'empl105', name: 'Tom', gender: 'male', annualSal: 6599 },
-            { code: 'empl206', name: 'Verne', gender: 'female', annualSal: 52222 },
-            { code: 'empl206', name: 'Verne', gender: 'female', annualSal: 52222 }
-        ];
+        return this._http.get("http://localhost:53543/api/employees")
+            .map(function (response) { return response.json(); });
     };
     return EmployeeService;
 }());
 EmployeeService = __decorate([
-    core_1.Injectable()
+    core_1.Injectable(),
+    __metadata("design:paramtypes", [http_1.Http])
 ], EmployeeService);
 exports.EmployeeService = EmployeeService;
 //# sourceMappingURL=Employee.service.js.map

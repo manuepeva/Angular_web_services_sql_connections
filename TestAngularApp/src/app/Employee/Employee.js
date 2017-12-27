@@ -1,10 +1,10 @@
 "use strict";
 var Employee = (function () {
-    function Employee(code, name, gender, annualSal) {
-        this.code = code;
-        this.name = name;
-        this.gender = gender;
-        this.annualSal = annualSal;
+    function Employee(ID, FIRSTNAME, LASTNAME, GENDER) {
+        this.ID = ID;
+        this.FIRSTNAME = FIRSTNAME;
+        this.LASTNAME = LASTNAME;
+        this.GENDER = GENDER;
     }
     return Employee;
 }());

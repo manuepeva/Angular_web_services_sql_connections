@@ -219,6 +219,8 @@
     </Content>
     <Content Include="package.json" />
     <Content Include="bs-config.json" />
+    <Content Include="npm-debug.log" />
+    <None Include="packages.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -283,6 +285,12 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeWebAPIService\EmployeeWebAPIService.csproj">
+      <Project>{f783cb21-7112-4c08-b5f9-58c67ffe6458}</Project>
+      <Name>EmployeeWebAPIService</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

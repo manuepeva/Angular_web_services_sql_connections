@@ -68,7 +68,15 @@ D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\TestAngularApp\bin\Mic
 D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\TestAngularApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\TestAngularApp\bin\Microsoft.AI.WindowsServer.xml
 D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\TestAngularApp\bin\Microsoft.AI.Web.xml
-D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\TestAngularApp\obj\Debug\TestAngularApp.csprojResolveAssemblyReference.cache
 D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\TestAngularApp\obj\Debug\TestAngularApp.csproj.CoreCompileInputs.cache
 D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\TestAngularApp\obj\Debug\TestAngularApp.dll
 D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\TestAngularApp\obj\Debug\TestAngularApp.pdb
+D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\TestAngularApp\bin\EmployeeWebAPIService.dll
+D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\TestAngularApp\bin\EntityFramework.dll
+D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\TestAngularApp\bin\EmployeeWebAPIService.pdb
+D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\TestAngularApp\bin\EmployeeWebAPIService.dll.config
+D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\TestAngularApp\bin\EntityFramework.xml
+D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\TestAngularApp\obj\Debug\TestAngularApp.csprojResolveAssemblyReference.cache
+D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\TestAngularApp\bin\System.Web.Http.Cors.dll
+D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\TestAngularApp\bin\System.Web.Cors.dll
+D:\Bitcoin_Wallet\Various_AspNet_Projects\Test-Angula-App\TestAngularApp\bin\System.Web.Http.Cors.xml
