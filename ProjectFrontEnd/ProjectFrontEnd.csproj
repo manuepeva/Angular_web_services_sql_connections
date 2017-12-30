@@ -152,6 +152,7 @@
     <TypeScriptCompile Include="quickstart\src\app\app.component.spec.ts" />
     <TypeScriptCompile Include="quickstart\src\app\app.component.ts" />
     <TypeScriptCompile Include="quickstart\src\app\app.module.ts" />
+    <TypeScriptCompile Include="quickstart\src\Employee\Employee.component.ts" />
     <TypeScriptCompile Include="quickstart\src\Employee\EmployeeList.Component.ts" />
     <TypeScriptCompile Include="quickstart\src\Employee\EmployeeService.component.ts" />
     <TypeScriptCompile Include="quickstart\src\Employee\IEmployee.ts" />
