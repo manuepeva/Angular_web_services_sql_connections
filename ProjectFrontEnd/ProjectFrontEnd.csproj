@@ -68,7 +68,16 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="npm-debug.log" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\ProjectFrontEnd.csproj.CopyComplete" />
+    <Content Include="obj\Debug\ProjectFrontEnd.csproj.CoreCompileInputs.cache" />
+    <Content Include="obj\Debug\ProjectFrontEnd.csprojResolveAssemblyReference.cache" />
+    <Content Include="obj\Debug\Tsc.out" />
     <None Include="packages.config" />
+    <Content Include="obj\Debug\ProjectFrontEnd.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\ProjectFrontEnd.dll" />
+    <Content Include="obj\Debug\ProjectFrontEnd.pdb" />
     <Content Include="quickstart\.editorconfig" />
     <Content Include="quickstart\.travis.yml" />
     <Content Include="quickstart\bs-config.e2e.json" />
@@ -78,10 +87,27 @@
     <Content Include="quickstart\LICENSE" />
     <Content Include="quickstart\package.json" />
     <Content Include="quickstart\README.md" />
+    <Content Include="quickstart\src\app\app.component.js" />
+    <Content Include="quickstart\src\app\app.component.spec.js" />
+    <Content Include="quickstart\src\app\app.module.js" />
+    <Content Include="quickstart\src\Employee\EmployeeList.Component.js" />
     <Content Include="quickstart\src\Employee\EmployeeListComponent.css" />
+    <Content Include="quickstart\src\Employee\EmployeeService.component.js" />
     <Content Include="quickstart\src\Employee\EmployeesList.Component.html" />
+    <Content Include="quickstart\src\Employee\IEmployee.js" />
+    <Content Include="quickstart\src\main.js" />
     <Content Include="quickstart\src\tsconfig.json" />
     <Content Include="quickstart\tslint.json" />
+    <Content Include="quickstart\src\app\app.component.js.map" />
+    <Content Include="quickstart\src\app\app.component.spec.js.map" />
+    <Content Include="quickstart\src\app\app.module.js.map" />
+    <Content Include="quickstart\src\Employee\EmployeeList.Component.js.map" />
+    <Content Include="quickstart\src\Employee\EmployeeService.component.js.map" />
+    <Content Include="quickstart\src\Employee\IEmployee.js.map" />
+    <Content Include="quickstart\src\main.js.map" />
+    <Content Include="quickstart\npm-debug.log.2906173491" />
+    <Content Include="quickstart\npm-debug.log.3664336853" />
+    <Content Include="quickstart\npm-debug.log.928650742" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -110,6 +136,9 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -123,6 +152,7 @@
     <TypeScriptCompile Include="quickstart\src\app\app.component.spec.ts" />
     <TypeScriptCompile Include="quickstart\src\app\app.component.ts" />
     <TypeScriptCompile Include="quickstart\src\app\app.module.ts" />
+    <TypeScriptCompile Include="quickstart\src\Employee\Employee.component.ts" />
     <TypeScriptCompile Include="quickstart\src\Employee\EmployeeList.Component.ts" />
     <TypeScriptCompile Include="quickstart\src\Employee\EmployeeService.component.ts" />
     <TypeScriptCompile Include="quickstart\src\Employee\IEmployee.ts" />
@@ -130,6 +160,10 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="node_modules\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
